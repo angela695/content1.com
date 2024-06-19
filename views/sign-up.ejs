@@ -1,0 +1,20 @@
+<%- include("head.ejs") %>
+<link rel="stylesheet" href="sign-up.css"/>
+    <div class="container">
+        <h1><u>SIGN UP</u></h1>
+        <form action="/sign-up">
+            <label for="f-name">First Name</label>
+            <input type="text" name="f-name" id="f-name"/>
+            <label for="l-name">Last Name</label>
+            <input type="text" name="l-name" id="l-name"/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass"/>
+            <button href = "/">Submit</button>
+        </form>
+
+    </div>
+    
+    
+    <%- include("footer.ejs") %>

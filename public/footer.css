@@ -1,0 +1,78 @@
+/*FOOTER PART*/
+
+footer {
+    padding: 100px 100px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .grid {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: start;
+    grid-row-gap: 50px;
+}
+
+footer>div {
+    margin: 0 50px 50px 0;
+}
+
+footer h1 {
+    font-size: 3rem;
+    padding-bottom: 70px;
+}
+
+footer .content1 ul .icons {
+    margin-top: 10px;
+}
+
+footer .content1 ul .icons div {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+footer .content1 ul .icons .i1 {
+    background-image: url("image-page1/public/i1.jpg");
+    background-size: contain;
+    background-color: transparent;
+}
+
+footer .content1 ul .icons .i2 {
+    background-image: url("image-page1/i2.webp");
+    background-size: contain;
+    background-color: transparent;
+}
+
+footer .content1 ul .icons .i3 {
+    background-image: url("image-page1/i3.png");
+    background-size: contain;
+    background-color: transparent;
+}
+
+footer .content1 ul .icons .i4 {
+    background-image: url("image-page1/i4.webp");
+    background-size: contain;
+    background-color: transparent;
+}
+
+footer .grid .content {
+    line-height: 25px;
+}
+
+footer .grid2 {
+    position: relative;
+}
+
+footer .grid2>span {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: -8px;
+}

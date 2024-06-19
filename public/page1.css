@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*NAVIGATION BAR*/
+
+.big-font-content {
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+}
+
+.small-font-content {
+    line-height: 1.5rem;
+    padding-top: 15px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.small-font {
+    font-size: 0.8rem;
+}
+
+.menu-rotate {
+    transform: rotate(90deg);
+}
+
+nav p a {
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(171, 171, 171);
+    height: 50px;
+    padding: 10px;
+
+}
+
+.nav-ops {
+    display: flex;
+    flex: 3;
+    align-items: center;
+}
+
+.nav-ops p>a {
+    text-decoration: none;
+    color : black;
+}
+.nav-ops p>a:active {
+    text-decoration: none;
+    color : blue;
+}
+
+
+
+.nav-menus-sym {
+    width: 55px;
+    display: flex;
+    align-items: center;
+
+}
+
+.account-ops {
+    display: flex;
+    align-items: center;
+    column-gap: 15px ;
+}
+
+.menu {
+    font-size: 1.9rem;
+    width: 24px;
+}
+
+/*MAIN BODY*/
+.about-jobs {
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.about-jobs p {
+    display: inline;
+    padding: 20px 20px;
+    font-size: 0.9rem;
+}
+
+/*PICTURE 1*/
+
+.pic1 {
+    height: 500px;
+    width: 80%;
+    /*margin-left : 150px ;*/
+    background-image: url("image-page1/pic1.png");
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #00000019;
+}
+
+main .content {
+    height: auto;
+    width: 40%;
+    margin: 90px 0;
+}
+
+/*MAIN CONTENT 1*/
+main .content1 p u {
+    color: rgb(31, 129, 186);
+}
+
+/*MAIN TWO PICTURE*/
+.pic-2_3 {
+    height: 700px;
+    width: 100%;
+
+}
+
+.pic2,
+.pic-bg,
+.pic3 {
+    display: inline-block;
+
+}
+
+.pic-2_3 .pic2 {
+    position: absolute;
+    left: 200px;
+    top: 1100px;
+    z-index: 1;
+    height: 550px;
+    width: 550px;
+    background-image: url("image-page1/pic2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic-2_3 .pic-bg1 {
+    position: absolute;
+    z-index: 0;
+    right: 60px;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(239, 239, 168);
+}
+
+.pic-2_3 .pic3 {
+    position: absolute;
+    right: 190px;
+    bottom: -900px;
+    z-index: 1;
+    height: 430px;
+    width: 430px;
+    background-image: url("image-page1/pic3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*PICTURE 4 */
+main .pic4 {
+    height: 400px;
+    width: 50%;
+    background-image: url("image-page1/pic4.png");
+    background-size: contain;
+}
+
+/*PICTURE 5 6 7*/
+
+.pic-5_6_7 {
+    position: relative;
+    height: 900px;
+    width: 100%;
+}
+
+.pic-5_6_7 .pic5,
+.pic6,
+.pic7 {
+    display: inline-block;
+    position: absolute;
+}
+
+main .pic-5_6_7 .pic5 {
+    top: 100px;
+    left: 140px;
+    z-index: 1;
+    height: 340px;
+    width: 450px;
+    background-image: url("image-page1/pic5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .pic-5_6_7 .pic7 {
+    position: absolute;
+    z-index: 1;
+    left: 140px;
+    top: 560px;
+    height: 340px;
+    width: 450px;
+    background-image: url("image-page1/pic7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .pic-5_6_7 .pic6 {
+    position: absolute;
+    z-index: 1;
+    top: 167px;
+    right: 200px;
+    height: 617px;
+    width: 600px;
+    background-image: url("image-page1/pic6.png");
+    background-size: cover;
+}
+
+main .pic-5_6_7 .pic-bg2 {
+    position: absolute;
+    z-index: 0;
+    margin-left: 40px;
+    height: 100%;
+    width: 55%;
+    background-color: rgb(185 241 161);
+}
+
+/*PICTURE 8*/
+main .pic8 {
+    height: 700px;
+    width: 85%;
+    background-image: url("image-page1/pic8.png");
+    background-size: contain;
+    background-repeat: round;
+}
+
+/*PICTURE 9 10 AND PIC BG 3*/
+
+main .pic-9_10 {
+    position: relative;
+    height: 900px;
+    width: 100%;
+}
+
+main .pic-9_10 .pic-bg3 {
+    z-index: 0;
+    position: absolute;
+    left: 214px;
+    height: 100%;
+    width: 73%;
+    background-color: rgba(197, 146, 245, 0.86);
+}
+
+main .pic-9_10 .pic9 {
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 250px;
+    height: 400px;
+    width: 500px;
+    background-image: url("image-page1/pic9.png");
+}
+
+main .pic-9_10 .pic10 {
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    z-index: 1;
+    height: 650px;
+    width: 650px;
+    background-image: url(pic10.png);
+}
+
+/*PICTURE 11*/
+main .pic11 {
+    height: 100%;
+    width: 44%;
+    background-image: url("image-page1/pic11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .pic-bg4 {
+    position: relative;
+    height: 529px;
+    width: 80%;
+    background-color: #1c4bed61;
+}
+
+/*CONTENT*/
+main .pic-bg4 p {
+    right: 145px;
+    top: 164px;
+    width: 30%;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    float: right;
+}
+
+main .pic-bg4 .style {
+    right: 225px;
+    top: 340px;
+    position: absolute;
+    color: blue;
+}
+

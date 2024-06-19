@@ -1,0 +1,49 @@
+
+.container {
+    box-shadow: 0px 0px 10px grey ;
+    border-radius: 10% ;
+    border : 1px solid grey ;
+    height: 500px ;
+    max-width :  500px  ;
+    position: relative;
+    top : 100px ;
+    left : 500px ;
+    margin-bottom: 200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.container form {
+    justify-content: space-around ;
+    display: grid;
+    grid-template-columns: repeat(2 , 200px );
+    row-gap: 20px ;
+}
+
+.container form input {
+    padding : 5px ;
+    width : 100% ;
+}
+
+.container form label {
+    align-self:center ;
+    text-align : center ;
+}
+
+.container form label:hover {
+    cursor : pointer ;
+}
+
+form button {
+    border: none;
+    border-radius: 10% ;
+    color: white ;
+    background-color: blue;
+    padding : 10px ;
+    max-width: fit-content;
+    justify-self: center;
+    margin-top : 100px ;
+    grid-column : 2 /3 ;
+}
