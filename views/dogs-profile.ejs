@@ -1,0 +1,18 @@
+<%- include("head.ejs") %>
+    <link rel="stylesheet" href="/animal-profile.css" />
+    <h1><u>
+            <%=dogs.name.toUpperCase()%>
+        </u></h1>
+    <div class="animals">
+        <% for(image of images) { %>
+            <div class="image"><img src="<%=image%>" alt="image"></div>
+            <% } %>
+    </div>
+    <br><br><br>
+
+    <div class="buttons">
+        <a href="/profile/dogs/create"><button>Create a Profile</button></a>
+        <a href="/profile"><button>Go Back</button></a>
+    </div>
+
+    <%- include("footer.ejs") %>
